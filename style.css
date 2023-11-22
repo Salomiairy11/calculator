@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    height: 7vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    background-color:rgb(247, 222, 235);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(247, 244, 206);
+    height:90vh;
+    display:flex;
+    padding: 14px;
+    margin:4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder{
+    font-size: x-large;
+}
+#screen{
+    text-align: right;
+    background-color: white;
+    height: 20vh;
+    width:50vw;
+    border-radius: 20px;
+    border: 2px solid rgb(206, 185, 185);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 12px;
+    padding: 3vh 4vw;
+    box-shadow: 5px 4px 0.5px 0.2px rgba(0, 0, 255, .2);
+}
+
+.firstrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vh 2vw;
+    padding: 0.5vw;
+}
+.boxbig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#operator{
+    font-size:x-large;
+}
+
+.button{
+    cursor: pointer;
+    width:9vw;
+    height:9vh;
+    margin:4px;
+    color:purple;
+    font-style: bolder;
+    font-weight: 800;
+    background-color: rgb(255, 248, 248);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
